@@ -1,0 +1,159 @@
+@media (max-width: 2280px) {
+  body {
+    background-color: black;
+    color: salmon;
+  }
+  .titleContainer {
+    border: solid peru;
+    height: 40vh;
+    margin: 1em;
+    font-size: 50px;
+    text-align: center;
+  }
+  .picContainer{
+    border:solid black;
+    height:40vh;
+    background-image: url('https://www.dapperfam.com/cdn/shop/articles/best_dress_shoes_2024-63952113.jpg?v=1700758035') ;
+}
+  .picContainer:hover{
+  height:40vh;
+  transform: scaleY(-1);
+}
+.logo:hover{
+  flex-wrap: wrap;
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+  transform: rotate(-360deg);
+  transition: width 4s, height 4s, transform 4s;
+
+}
+}
+/* .logo{
+  border: solid silver;
+  border-radius:20%;
+  height:15%;
+  width:10%;
+}
+
+/* ------------Desktop  */
+
+@media (max-width: 1480px) {
+  body {
+    background-color: cornflowerblue;
+  }
+  .titleContainer {
+    border: solid orange;
+    height: 40vh;
+    margin: 1em;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 247, 0);
+  }
+  .picContainer{
+    border:solid rgb(3, 255, 83);
+    height:40vh;
+    background-image: url('https://static.dezeen.com/uploads/2012/07/Dezeen_Pop-up-store-for-Dr.-Martens-by-Campaign-and-FreshBritain_SS_1.jpg') ;
+}
+.logo:hover{
+  flex-wrap: wrap;
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+  transform: rotate(720deg);
+  transition: width 6s, height 6s, transform 6s;
+}
+.picContainer:hover{
+  height:40vh;
+  transform: scaleY(-1);
+}
+}
+/* ---------------Mid  */
+
+
+@media (max-width: 880px) {
+    body {
+        background-color: grey;
+    }
+    
+    .titleContainer {
+        border: solid white;
+        height: 40vh;
+        margin: 1em;
+        font-size: 50px;
+        text-align: center;
+    color: white;
+  }
+  .picContainer{
+    border:solid black;
+    height:40vh;
+    background-image: url('https://assets.gqindia.com/photos/5cdc12b2b6f0b39e8dc702e5/master/pass/top-images.jpg');
+    background-size: 100vw 100vh;   
+}
+.logo:hover{
+  flex-wrap: wrap;
+  border-radius: 90%;
+  width: 30%;
+  height: 30%;
+  transform: rotate(1080deg);
+  transition: width 6s, height 6s, transform 6s;
+}
+.picContainer:hover{
+  height:40vh;
+  transform: scaleY(-1);
+}
+}
+/* -------------Mobile  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------GeneralCSS */
+
+.dropbtn{
+  background-color: peru;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 80%;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: peru;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(249, 140, 44, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+table, th, td{
+  border: 1px solid white;
+}
+.center{
+  display: block;
+  margin-left: 90%;
+  margin-right: 30%;
+}
